@@ -17,12 +17,24 @@ module.exports = {
     },
     borderRadius: {
       sm: "10px",
+      DEFAULT: "4px",
       md: "16px",
       lg: "32px",
     },
+    fontSize: {
+      xs: ["10px", "12px"],
+      sm: ["14px", "21px"],
+      base: ["16px", "24px"],
+      lg: ["18px", "21.6px"],
+      xl: ["20px", "24px"],
+      "2xl": ["24px", "28.8px"],
+      "3xl": ["28px", "33.6px"],
+      "4xl": ["32px", "38.4px"],
+      "5xl": ["40px", "48px"],
+    },
     extend: {
       colors: {
-        primary: colors.orange["500"],
+        primary: colors.red["500"],
         secondary: colors.indigo,
         neutral: colors.gray,
       },

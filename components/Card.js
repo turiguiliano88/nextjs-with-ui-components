@@ -1,6 +1,6 @@
 export const Card = (props) => {
   return (
-    <div className="rounded-md p-sm bg-gray-50">
+    <div className="rounded-sm p-md bg-white">
       {/* <Card.Title /> */}
       {props.children}
     </div>
@@ -12,5 +12,5 @@ export const CardContent = (props) => {
 };
 
 export const CardTitle = (props) => {
-  return <div className="text-lg">{props.children}</div>;
+  return <div className="text-4xl mb-lg font-semibold">{props.children}</div>;
 };
