@@ -1,5 +1,5 @@
 export const Card = (props) => {
-  return <div className="rounded-sm p-md bg-white">{props.children}</div>;
+  return <div className="rounded-sm p-md bg-white m-sm">{props.children}</div>;
 };
 
 export const CardContent = (props) => {

@@ -4,6 +4,7 @@ console.log("colors", colors.indigo);
 module.exports = {
   defaultTheme: {
     spacing: {
+      0: 0,
       1: "4px",
       2: "8px",
       3: "16px",
@@ -35,13 +36,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.red["500"],
-        secondary: colors.indigo,
+        primary: colors.red["600"],
+        secondary: colors.cyan["400"],
         neutral: colors.gray,
       },
       spacing: {
         xs: "8px",
         xxs: "4px",
+      },
+      flexShrink: {
+        2: 2,
       },
     },
   },

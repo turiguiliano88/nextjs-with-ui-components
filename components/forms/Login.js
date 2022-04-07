@@ -28,7 +28,7 @@ export default function Login() {
           <Button>Login</Button>
         </div>
         <hr className="my-sm text-gray-200" />
-        <div className="">
+        <div className="text-gray-500">
           <span>Don't have an account? </span>
           <Link href="/signup">
             <a className="text-primary">Sign up</a>

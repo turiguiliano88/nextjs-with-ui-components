@@ -36,4 +36,9 @@ input[type="checkbox"]:checked {
 
 body {
   @apply bg-gray-100;
+  @apply text-gray-800;
+}
+
+input {
+  min-width: 0;
 }

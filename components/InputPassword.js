@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function InputPassword(props) {
   const [visible, setVisible] = useState(false);
   return (
-    <div className="text-zinc-800 mb-sm flex flex-col">
+    <div className="text-gray-800 mb-xs flex flex-col">
       {props.label && <div className="mb-xxs">{props.label}</div>}
       <div className="flex items-center rounded-sm grow px-sm py-xs border-gray-200 border-2 focus-within:outline-none focus-within:border-primary">
         <input
@@ -14,8 +14,8 @@ export default function InputPassword(props) {
           placeholder="Text"
         />
         <div onClick={() => setVisible(!visible)}>
-          {visible && <EyeIcon className="w-4 h-4 text-gray-400" />}
-          {!visible && <EyeOffIcon className="w-4 h-4 text-gray-400" />}
+          {visible && <EyeIcon className="w-4 h-4 text-gray-600" />}
+          {!visible && <EyeOffIcon className="w-4 h-4 text-gray-300" />}
         </div>
       </div>
     </div>
