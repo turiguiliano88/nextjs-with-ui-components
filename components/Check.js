@@ -1,4 +1,4 @@
-export const Check = (props) => {
+export default function Check(props) {
   return (
     <div className="flex items-center first:mr-2">
       <input
@@ -9,4 +9,4 @@ export const Check = (props) => {
       <label>{props.label}</label>
     </div>
   );
-};
+}

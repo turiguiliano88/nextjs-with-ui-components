@@ -20,6 +20,7 @@ module.exports = {
       DEFAULT: "4px",
       md: "16px",
       lg: "32px",
+      full: "9999px",
     },
     fontSize: {
       xs: ["10px", "12px"],

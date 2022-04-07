@@ -33,3 +33,7 @@ input[type="checkbox"]:checked {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+body {
+  @apply bg-gray-100;
+}
