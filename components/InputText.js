@@ -4,7 +4,8 @@ export default function InputText(props) {
       {props.label && <div className="mb-xxs">{props.label}</div>}
       <div className="flex items-center rounded-sm px-sm py-xs border-gray-200 border-2 focus-within:outline-none focus-within:border-primary">
         <input
-          className="p-0 m-0 grow border-none focus:outline-none focus:border-primary"
+          required={props.required}
+          className="p-0 m-0 grow border-none focus:outline-none"
           type="text"
           onChange={props.onChange}
           placeholder={props.placeholder ? props.placeholder : "Text"}

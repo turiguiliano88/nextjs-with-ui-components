@@ -8,8 +8,8 @@ export const Sidebar = ({ children, enabled }) => {
       ></div>
       <div
         className={`${
-          enabled ? "translate-x-0" : "translate-x-[600px]"
-        } fixed top-0 right-0 h-full transition bg-white z-10 p-md flex flex-col w-[600px]`}
+          enabled ? "translate-x-0" : "translate-x-[640px]"
+        } fixed top-0 right-0 h-full transition bg-white z-10 p-md flex flex-col w-[640px]`}
       >
         {children}
       </div>

@@ -2,7 +2,7 @@ import { SelectorIcon } from "@heroicons/react/solid";
 
 export default function Select(props) {
   return (
-    <div className="text-zinc-800 mb-sm flex flex-col">
+    <div className="text-gray-800 mb-sm flex flex-col">
       {props.label && <div className="mb-xxs">{props.label}</div>}
       <div className="flex items-center rounded-sm grow px-sm py-xs border-gray-200 border-2 focus-within:border-primary">
         <select
@@ -17,7 +17,7 @@ export default function Select(props) {
               </option>
             ))}
         </select>
-        <SelectorIcon className="w-3 h-3 text-gray-400" />
+        <SelectorIcon className="w-4 h-4 text-gray-300" />
       </div>
     </div>
   );

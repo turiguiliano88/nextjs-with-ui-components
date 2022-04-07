@@ -10,6 +10,7 @@ export default function InputPassword(props) {
         <input
           className="p-0 m-0 grow border-none focus:outline-none focus:border-primary"
           type={visible ? "text" : "password"}
+          required={props.required}
           onChange={props.onChange}
           placeholder="Text"
         />

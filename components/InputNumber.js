@@ -6,6 +6,7 @@ export default function InputNumber(props) {
         <input
           className="p-0 m-0 grow border-none focus:outline-none focus:border-primary"
           type="number"
+          required={props.required}
           onChange={props.onChange}
           placeholder={props.placeholder ? props.placeholder : 66666}
         />
