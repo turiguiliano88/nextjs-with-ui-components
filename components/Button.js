@@ -30,7 +30,7 @@ export default function Button(props) {
     <button
       onClick={props.onClick}
       type={props.submit ? "submit" : "button"}
-      className={`${styleColor} ${styleSize} transition flex-initial rounded-lg hover:ring-2 hover:opacity-90`}
+      className={`${styleColor} ${styleSize} transition flex-initial rounded-lg hover:ring-2 hover:opacity-90 active:opacity-60`}
     >
       {props.children}
     </button>

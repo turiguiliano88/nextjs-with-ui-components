@@ -12,7 +12,7 @@ export default function InputPassword(props) {
           type={visible ? "text" : "password"}
           required={props.required}
           onChange={props.onChange}
-          placeholder="Text"
+          placeholder="***"
         />
         <div onClick={() => setVisible(!visible)}>
           {visible && <EyeIcon className="w-4 h-4 text-gray-600" />}

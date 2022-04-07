@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="">
       <div className="flex justify-center">
-        <div className="w-6/12 p-3">
+        <div className="md:w-[480px]">
           <Login />
           {/* <Toggle enabled={confirm} onChange={() => setConfirm(!confirm)} /> */}
           {/* <Button onClick={() => setShowModal(!showModal)}>show Modal</Button> */}
