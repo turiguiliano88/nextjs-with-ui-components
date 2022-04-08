@@ -1,8 +1,5 @@
 import Button from "../Button";
-import InputText from "../InputText";
-import InputPassword from "../InputPassword";
-import InputNumber from "../InputNumber";
-import InputEmail from "../InputEmail";
+import Input from "../Input";
 import { Card, CardContent, CardTitle } from "../Card";
 import Select from "../Select";
 import { useState } from "react";
@@ -22,14 +19,14 @@ export default function SignUp() {
       <Card>
         <CardTitle>Sign up</CardTitle>
         <CardContent>
-          <InputEmail label="Email*" required />
-          <InputPassword label="Password*" required />
+          <Input type="email" label="Email*" required />
+          <Input type="password" label="Password*" required />
           <div className="flex flex-wrap">
             <div className="w-full md:w-6/12 pr-2">
-              <InputText label="First name" />
+              <Input type="text" label="First name" />
             </div>
             <div className="w-full md:w-6/12">
-              <InputText label="Last name" />
+              <Input type="text" label="Last name" />
             </div>
           </div>
           <Select
@@ -40,7 +37,7 @@ export default function SignUp() {
               return { name: item.name, value: item.code };
             })}
           />
-          <InputNumber label="Phone" />
+          <Input type="number" label="Phone" />
 
           <div className="my-xs">
             <Button submit>Sign up</Button>

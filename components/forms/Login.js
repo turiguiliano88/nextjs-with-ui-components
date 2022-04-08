@@ -1,6 +1,5 @@
 import Button from "../Button";
-import InputEmail from "../InputEmail";
-import InputPassword from "../InputPassword";
+import Input from "../Input";
 import { Card, CardContent, CardTitle } from "../Card";
 import Check from "../Check";
 import Link from "next/link";
@@ -19,15 +18,17 @@ export default function Login() {
       <Card>
         <CardTitle>Log In</CardTitle>
         <CardContent>
-          <InputEmail
+          <Input
             label="Email*"
             onChange={(event) => setEmail(event.target.value)}
             required
+            type="email"
           />
-          <InputPassword
+          <Input
             label="Password*"
             onChange={(event) => setPassword(event.target.value)}
             required
+            type="password"
           />
           <div className="mb-md">
             <Check label="Remember me" />
