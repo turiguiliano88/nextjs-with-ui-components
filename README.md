@@ -1,4 +1,5 @@
-This is a Nextjs starter template that has ready-to-use UI components. You can use it as a starting point to build common web applications.
+This is a Nextjs starter template that has ready-to-use UI components. You can use it as a starting point to build any common web applications.
+
 Atomic components:
 - Button
 - Input
@@ -13,7 +14,7 @@ Form components:
 - Login
 - Signup
 
-The default theme is included in tailwind-theme.js. It is crafted following strictly design system style guide care so you can either using it directly or customizing quickly by modifying **color brand** and **fontFamily**... You can always go further creating your own theme by redefining other variables: **spacing**, **borderRadius**, **fontSize**..
+The default theme is included in tailwind-theme.js. It is crafted following design system guideline carefully so you can either using it directly or customizing quickly by modifying **color brand** and **fontFamily**... You can always go further creating your own theme by redefining other variables: **spacing**, **borderRadius**, **fontSize**..
 
 This project is powered by Nextjs, Tailwindcss.
 
